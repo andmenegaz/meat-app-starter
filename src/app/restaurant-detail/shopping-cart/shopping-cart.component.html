@@ -13,7 +13,7 @@
     <div *ngIf="items().length" class="table-responsive">
       <table class="table">
         <tbody>
-          <tr *ngFor="let cartItem of items()">
+          <tr *ngFor="let cartItem of items()" [@row]='rowState'>
             <th>({{cartItem.quantity}}x) {{cartItem.menuItem.name}}</th>
             <td class="text-right">{{cartItem.value() | currency: 'BRL': true}}</td>
             <td class="text-right">
