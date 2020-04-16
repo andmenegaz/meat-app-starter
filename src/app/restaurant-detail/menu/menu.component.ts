@@ -11,7 +11,7 @@ import { ShoppingCartService } from '../shopping-cart/shopping-cart.service';
 })
 export class MenuComponent implements OnInit {
 
-  menu: Observable<MenuItem>
+  menu: Observable<MenuItem[]>
 
   constructor(private restaurantService: RestaurantsService,
               private shoppingCartService: ShoppingCartService,
