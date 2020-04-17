@@ -424,6 +424,22 @@
         }
       ],
       "id": 3
+    },
+    {
+      "name": "ANDRE MENEGAZ MARTINS",
+      "email": "andmenegaz@gmail.com",
+      "emailConfirmation": "andmenegaz@gmail.com",
+      "address": "Rua Antonio Nunes dos Santos",
+      "number": "445",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 4
     }
   ]
 }
