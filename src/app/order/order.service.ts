@@ -6,7 +6,6 @@ import { Observable } from "rxjs/Observable";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import 'rxjs/add/operator/map'
 import { MEAT_API } from "app/app.api";
-import { ErrorHandler } from "app/app.error-handler";
 
 @Injectable()
 export class OrderService {
